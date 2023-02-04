@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Verdana;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background: url(gktau.JPG);
+    background-size: 100%;
+    position: relative;
+    margin: auto;
+}
+nav {
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+span{
+    color: #B3FFAE;
+}
+span1{
+    color: lightskyblue;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: white;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+nav ul li a:hover{
+    color: #B3FFAE;
+    font-weight: bold;
+}
+.content{
+    color: white;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+.content h3{
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 1px;
+}
+.content h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.content p{
+    color: #A0E4CB;
+    line-height: 22px;
+}
+.content a{
+    background: #4E6C50;
+    padding: 10px 18px;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.content a:hover{
+    color: #B3FFAE;
+    border: 2px solid #B3FFAE;
+}
+.image{
+    width: 40%;
+    height: 400px;
+    bottom: 0;
+    right: 100px;
+    position: absolute;
+    top: 30%;
+}
+.image img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-40%);
+}
+span2{
+    color: #47B5FF;
+}
+.haha{
+    
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    width: 40px;
+    border: none;
+    border-radius: 5px;
+}
+.tulisan{
+    color: white;
+    margin-top: 5%;
+    margin-left: 50%;
+}
+.tulisand{
+    color: white;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.maind{
+    height: 1000px;
+    width: 100%;
+    background-color: #6D9886;
+    position: relative;
+    margin: auto;
+}
+.kue{
+    color: #A0E4CB;
+    margin-left: 20%;
+}
+.biskuit{
+    color: white;
+    margin-left: 30%;
+}
+.makanan{
+    color: #DEF5E5;
+    margin-left: 20%;
+}
+.gambar{
+    margin-left: 30%;
+}
+iframe{
+    border-radius: 5px;
+    margin-left: 30%;
+}
+.bc{
+    color: white;
+    margin-left: 44%;
+}
+.c{
+    color: #A5F1E9;
+    margin-left: 41%;
+}
+.hg{
+    color: white;
+    margin-left: 60%;
+}
+.g{
+    color: #B3FFAE;
+    margin-left: 40%;
+    margin-top: -20%;
+}
+table {
+font-family: sans-serif;
+color: #444;
+border-collapse: collapse;
+width: 50%;
+border: 1px solid #f2f5f7;
+margin-top: 55px;
+margin-left: 50%;
+}
+table tr th{
+    background: #35a9db;
+    color: #fff;
+    font-weight: normal;
+}
+table th td{
+    padding: 8px 20 px;
+    text-align: center;
+}
+.bebek{
+    color: #fff;
+}
+.black{
+    margin-right: 20%;
+}
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+form {
+	margin-top: 15%;
+    margin-left: 30%;
+	width: 500px;
+	border: 2px solid #ccc;
+	padding: 30px;
+	transform: translate(-0%, -10%);
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 15px;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+input {
+	display: block;
+	border: 2px solid #ccc;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+label {
+	color: #fff;
+	font-size: 18px;
+	padding: 10px;
+}
+
+button {
+	float: right;
+	background: #555;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+}
+button:hover{
+	opacity: .7;
+}
+.error {
+   background: #F2DEDE;
+   color: #A94442;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+.success {
+   background: #D4EDDA;
+   color: #40754C;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+h1 {
+	text-align: center;
+	color: #144272;
+}
+
+.ca {
+	font-size: 14px;
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: #F7F7F7;
+}
+.ca:hover {
+	text-decoration: underline;
+	color: #DDDDDD;
+} 
+
+.home-nav a {
+	background-color: #82AAE3;
+	border-radius: 5px;
+	padding: 10px;
+	color: #FD841F;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+
+
